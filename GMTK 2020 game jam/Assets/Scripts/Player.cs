@@ -1,10 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    
+    // list of tools able to be used
+    public enum Tools
+    {
+        Wrench,
+        Crowbar,
+        Hammer,
+        FlameThrower,
+        FireExtinguisher,
+        ToolCount
+    }
+
     // Start is called before the first frame update
     void Start()
     {
