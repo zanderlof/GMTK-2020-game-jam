@@ -26,16 +26,19 @@ namespace AI.CrewTask
         public void Start(CrewAI ai)
         {
             // build out the plan
-            Debug.Log($"Current plan for {ai.gameObject.name}");
             foreach (var marker in ai.ClosestMarker.FindPathTo(Target))
             {
-                Debug.Log($"\t{marker.gameObject.name}");
                 _path.Enqueue((marker, Vector3.Distance(marker.gameObject.transform.position, ai.transform.position)));
             }
         }
         
         public bool Update(CrewAI ai)
         {
+            if (_path.Count == 0)
+            {
+                return true;
+            }
+            
             // get the item
             var pair = _path.Peek();
             var nextMarker = pair.Item1;

@@ -8,11 +8,11 @@ using UnityEngine.Assertions;
 
 namespace AI.Path
 {
-    public class PathMarkerManager : MonoBehaviour
+    public class PathMarkerDebugger : MonoBehaviour
     {
         public bool showConnections = false;
 
-        public void DrawConnections()
+        void DrawConnections()
         {
             var visited = new HashSet<(PathMarker, PathMarker)>();
             foreach (var node in FindObjectsOfType<PathMarker>())
