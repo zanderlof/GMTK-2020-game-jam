@@ -8,8 +8,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
 
-    private GameObject tool;
+    public GameObject tool;
     public Rigidbody2D body;
+    public float speed;
     private Vector2 movement;
 
     // Start is called before the first frame update
@@ -54,6 +55,10 @@ public class Player : MonoBehaviour
         
     }
 
+    public GameObject Holding()
+    {
+        return tool;
+    }
     public void Holding(GameObject thing)
     {
         tool = thing;
@@ -65,6 +70,6 @@ public class Player : MonoBehaviour
 
     private void Move()
     {
-        body.velocity = movement * 2.5f;
+        body.velocity = movement * speed;
     }
 }

@@ -26,7 +26,7 @@ public class Tool : MonoBehaviour
         {
             if (!held)
             {
-                if (math.abs(player.transform.position.x - transform.position.x) < 0.2f && math.abs(player.transform.position.y - transform.position.y) < 1.0f )
+                if (math.abs(player.transform.position.x - transform.position.x) < 0.2f && math.abs(player.transform.position.y - transform.position.y) < 0.2f )
                 {
                     held = true;
                     player2.Holding(gameObject);
