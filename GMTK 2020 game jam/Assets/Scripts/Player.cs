@@ -9,8 +9,8 @@ public class Player : MonoBehaviour
 {
 
     private GameObject tool;
-
-    
+    public Rigidbody2D body;
+    private Vector2 movement;
 
     // Start is called before the first frame update
     void Start()
@@ -22,23 +22,27 @@ public class Player : MonoBehaviour
     void Update()
     {
         //movement
+        movement = Vector2.zero;
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += Vector3.up * 0.02f;
+            movement += Vector2.up;
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            transform.position += Vector3.down * 0.02f;
+            movement += Vector2.down;
         }
+        
 
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position += Vector3.left * 0.02f;
+            movement += Vector2.left;
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            transform.position += Vector3.right * 0.02f;
+            movement += Vector2.right;
         }
+
+        Move();
 
         //move held tool with player
         if(tool != gameObject)
@@ -57,5 +61,10 @@ public class Player : MonoBehaviour
     public void DropHeld()
     {
         tool = gameObject;
+    }
+
+    private void Move()
+    {
+        body.velocity = movement * 2.5f;
     }
 }
