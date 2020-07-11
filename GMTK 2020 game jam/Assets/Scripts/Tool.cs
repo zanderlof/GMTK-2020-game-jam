@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using Unity.Mathematics;
 using UnityEngine;
 
 public class Tool : MonoBehaviour
 {
     public GameObject player;
+    public Player player2;
+    
 
     private bool held;
 
@@ -23,20 +26,18 @@ public class Tool : MonoBehaviour
         {
             if (!held)
             {
-                if (math.abs(player.transform.position.x - transform.position.x) < 1.0f && math.abs(player.transform.position.y - transform.position.y) < 1.0f)
+                if (math.abs(player.transform.position.x - transform.position.x) < 0.2f && math.abs(player.transform.position.y - transform.position.y) < 1.0f )
                 {
                     held = true;
+                    player2.Holding(gameObject);
                 }
             }
             else
             {
+                player2.DropHeld();
                 held = false;
             }
         }
-        if(held)
-        {
-            transform.position = player.transform.position;
-            transform.position += Vector3.back * 0.01f;
-        }
+       
     }
 }
