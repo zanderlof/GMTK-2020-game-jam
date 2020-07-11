@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using Unity.Mathematics;
 using UnityEngine;
 
@@ -10,12 +11,22 @@ public class Panel : MonoBehaviour
     public Player player2;
     public SpriteRenderer sprite;
 
-    public float timer;
+    public float interactRadius;
+
+    //timer valiables
+    private float timer;
+    public float timerInitial;
+    public float timerRepair;
+    public float timerSpeed;
+
+    //colors
+    public Color working;
+    public Color broken;
 
     // Start is called before the first frame update
     void Start()
     {
-        //timer = 15.0f;
+        timer = timerInitial;
     }
 
     // Update is called once per frame
@@ -23,20 +34,20 @@ public class Panel : MonoBehaviour
     {
         if(timer > 0)
         {
-            timer -= 0.01f;
+            timer -= timerSpeed;
             
         }
         else if (timer <= 0)
         {
-            sprite.color = Color.red;
+            sprite.color = broken;
         }
 
         if(Input.GetKey(KeyCode.Q))
         {
-            if (math.abs(player.transform.position.x - transform.position.x) < 0.2f && math.abs(player.transform.position.y - transform.position.y) < 0.2f && player2.tool == tool)
+            if (math.abs(player.transform.position.x - transform.position.x) < interactRadius && math.abs(player.transform.position.y - transform.position.y) < interactRadius && player2.tool == tool)
             {
-                timer = 15.0f;
-                sprite.color = Color.green;
+                timer = timerRepair;
+                sprite.color = working;
             }
         }
         
