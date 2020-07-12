@@ -195,6 +195,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -203,6 +208,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 1871741064}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 1924742955}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1001 &59322351
@@ -810,6 +825,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -818,6 +838,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 1559577547}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 2059178853}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1001 &289729294
@@ -1226,6 +1256,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -1234,6 +1269,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 2059178853}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 717035945}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!114 &668826161 stripped
@@ -1445,6 +1490,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -1453,6 +1503,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 1129938540}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 1007519574}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1001 &785041652
@@ -1879,6 +1939,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -1887,6 +1952,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 78500849}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 451362742}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!4 &925075508 stripped
@@ -1996,6 +2071,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -2004,6 +2084,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 1129938540}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 451362742}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1 &1007519570 stripped
@@ -2928,6 +3018,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -2936,6 +3031,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 1007519574}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 236768210}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1001 &1408997075
@@ -3229,6 +3334,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -3237,6 +3347,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 1007519574}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 791187449}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1001 &1565488037
@@ -3743,6 +3863,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -3751,6 +3876,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 791187449}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 1924742955}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!114 &1707436209 stripped
@@ -3839,6 +3974,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -3847,6 +3987,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 791187449}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 127376555}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!114 &1717415536 stripped
@@ -4118,6 +4268,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -4126,6 +4281,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 791187449}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 1871741064}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!114 &1756115559 stripped
@@ -4214,6 +4379,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -4222,6 +4392,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 451362742}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 127376555}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1001 &1790664159
@@ -5139,6 +5319,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -5147,6 +5332,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 949870532}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 1559577547}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1 &1958689738 stripped
@@ -5357,6 +5552,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -5365,6 +5565,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 717035945}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 791187449}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!114 &2109468070 stripped
@@ -5453,6 +5663,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -5461,6 +5676,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 1007519574}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 949870532}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1001 &259925860957446329
@@ -6193,6 +6418,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
         type: 3}
+      propertyPath: connectingRooms.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1139390247}
@@ -6201,6 +6431,16 @@ PrefabInstance:
       propertyPath: interactRadius
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[0]
+      value: 
+      objectReference: {fileID: 336727605}
+    - target: {fileID: 8896415544812664345, guid: dc4ed61a40ef62241bfa8294bff542e4,
+        type: 3}
+      propertyPath: connectingRooms.Array.data[1]
+      value: 
+      objectReference: {fileID: 1559577547}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc4ed61a40ef62241bfa8294bff542e4, type: 3}
 --- !u!1001 &6360334764129459430
