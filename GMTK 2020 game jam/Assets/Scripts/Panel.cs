@@ -10,6 +10,7 @@ public class Panel : MonoBehaviour
     public GameObject player;
     public Player player2;
     public SpriteRenderer sprite;
+    public RoomManager room;
 
     public float interactRadius;
 
@@ -48,6 +49,7 @@ public class Panel : MonoBehaviour
             {
                 timer = timerRepair;
                 sprite.color = working;
+                room.roomState = RoomState.Normal;
             }
         }
         
