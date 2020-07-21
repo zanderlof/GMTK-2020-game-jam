@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 7ab2acd831b554e41ba351fc53477697
+  - enabled: 1
+    path: Assets/ZDMScenes/MainMenu.unity
+    guid: 4fd6318a33ee1e04ba9a423ae74cf0c2
+  - enabled: 1
+    path: Assets/ZDMScenes/Credits.unity
+    guid: e4adb84997ba85c48bdd889aa0cb44ed
   m_configObjects: {}

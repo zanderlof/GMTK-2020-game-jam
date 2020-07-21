@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.U2D;
+using UnityEngine.Tilemaps;
 
 public enum RoomState
 {
@@ -17,6 +18,7 @@ public class RoomManager : MonoBehaviour
     public RoomState roomState;
     private RoomState previousState;
     public List<Door> connectingDoors;
+    public TilemapRenderer infection;
 
     public float infectionTimeMin_Closed, infectionTimeMax_Closed;
     public float infectionTimeMin_Opened, infectionTimeMax_Opened;
@@ -107,6 +109,8 @@ public class RoomManager : MonoBehaviour
         infectionTime_Opened = Random.Range(infectionTimeMin_Opened, infectionTimeMax_Opened);
         infectionTime_Closed = Random.Range(infectionTimeMin_Closed, infectionTimeMax_Closed);
         roomState = RoomState.Infected;
+        infection.enabled = true;
+        
     }
 
     public void Ignited()

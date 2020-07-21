@@ -50,6 +50,7 @@ public class Panel : MonoBehaviour
                 timer = timerRepair;
                 sprite.color = working;
                 room.roomState = RoomState.Normal;
+                room.infection.enabled = false;
             }
         }
         
