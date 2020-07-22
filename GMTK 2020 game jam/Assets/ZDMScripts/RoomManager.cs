@@ -105,7 +105,7 @@ public class RoomManager : MonoBehaviour
 
     public void Infected()
     {
-        this.GetComponent<SpriteShapeRenderer>().color = Color.red;
+        //this.GetComponent<SpriteShapeRenderer>().color = Color.red;
         infectionTime_Opened = Random.Range(infectionTimeMin_Opened, infectionTimeMax_Opened);
         infectionTime_Closed = Random.Range(infectionTimeMin_Closed, infectionTimeMax_Closed);
         roomState = RoomState.Infected;
